@@ -1,0 +1,6 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rozetka Test Task" verbose="1">
+    <test name="Mobile phones listing">
+        <classes><class name="com.example.rozetka.RozetkaMobilePhonesTest"/></classes>
+    </test>
+</suite>
