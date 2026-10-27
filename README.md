@@ -67,7 +67,7 @@ The test suite is configured through `TestNG.xml` and executed by the Maven Sure
 
 ## Output
 
-The test generates two CSV files in `src/test/resources/`. Each run overwrites the previous contents instead of appending to them.
+The test generates two CSV files in `target/test-results/`. Each run overwrites the previous contents instead of appending to them.
 
 | File | Description |
 |---|---|
