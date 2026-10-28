@@ -15,23 +15,29 @@ The test opens Rozetka, navigates to the Mobile Phones category, collects produc
 ## Project Structure
 
 ```text
-src/
-├── main/
-│   └── java/com/example/rozetka/
-│       ├── Product.java
-│       ├── page/
-│       │   ├── MainPage.java
-│       │   ├── CategoryPage.java
-│       │   └── MobilePhonesPage.java
-│       └── utils/
-│           └── CsvExporter.java
-└── test/
-    ├── java/com/example/rozetka/
-    │   ├── BaseTest.java
-    │   └── RozetkaMobilePhonesTest.java
-    └── resources/
-        ├── all-mobile-phones.csv
-        └── top-sales-mobile-phones.csv
+├── src/
+│   ├── main/
+│   │   └── java/com/example/rozetka/
+│   │       ├── common/
+│   │       │   └── Product.java
+│   │       ├── page/
+│   │       │   ├── CategoryPage.java
+│   │       │   ├── MainPage.java
+│   │       │   └── MobilePhonesPage.java
+│   │       └── utils/
+│   │           └── CsvExporter.java
+│   └── test/
+│       └── java/com/example/rozetka/
+│           ├── BaseTest.java
+│           └── RozetkaMobilePhonesTest.java
+├── target/
+│   └── test-results/
+│       ├── all-mobile-phones.csv
+│       └── top-sales-mobile-phones.csv
+├── .gitignore
+├── pom.xml
+├── README.md
+└── testng.xml
 ```
 
 ## Prerequisites
